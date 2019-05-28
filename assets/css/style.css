@@ -5,12 +5,18 @@
 
 .container-fluid{
     padding: 0px;
+    
 }
 
-.col-lg-2{
+
+.menuLateral{
+    height: 100%;
     padding: 0px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-    
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);    
+}
+
+.lateral{
+    padding: 0px;
 }
 
 .imagemItens{
@@ -24,13 +30,15 @@ nav ul{
 
 .bannerMenu{
     width: 100%;
-    opacity: 0.8;
+    height: 215px;
+    opacity: 0.7;
 }
 
 .banner{
     width: 100%; 
     height: 500px;   
     opacity: 0.7;
+    padding: 10px;
 }
 
 .fotoPerfilUm{
@@ -39,8 +47,45 @@ nav ul{
     height: 200px;
     position: absolute;
     z-index: 2;
-    top: 400px;
+    top: 390px;
     left: 30px;
+}
+
+.fotoPerfilDois{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 20px;
+    filter: grayscale(100%);
+}
+
+.nomeemail{
+    position: absolute;
+    z-index: 2;
+    top: 125px;
+    left: 10px;
+    font-size: 12pt;
+}
+
+.social li{
+   display: inline;
+}
+
+.social{
+    z-index: 2;
+    position: absolute;
+    top: 180px;
+
+}
+
+.imagensSociais{
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    
 }
 
 .sobre{
