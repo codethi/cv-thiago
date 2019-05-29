@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 .container-fluid{
     padding: 0px;
     
@@ -88,10 +93,17 @@ nav ul{
     
 }
 
-.sobre{
-    padding: 50px;
+.marginHr{
+    margin-bottom: 50px;
 }
 
 .texto{
     text-align: justify;
 }
+
+.sub{
+    color: #95a5a6;
+    font-size: 20pt;
+    margin-bottom: 40px;
+}
+
