@@ -136,14 +136,28 @@ nav ul{
 .html {width: 90%; background-color: #4CAF50;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 70%; background-color: #f44336;}
-.java {width: 80%; background-color: #808080;}
+.java {width: 80%; background-color: #f1c40f;}
+.mysql {width: 85%; background-color: #808080;}
 
 .comunicacao {width: 90%; background-color: #4CAF50;}
 .proatividade {width: 85%; background-color: #2196F3;}
 .lideranca {width: 80%; background-color: #f44336;}
-.equipe {width: 95%; background-color: #808080;}
+.equipe {width: 95%; background-color: #f1c40f;}
+.empatia {width: 90%; background-color: #808080;}
 
 h5{
     padding-top: 15px;
  
+}
+
+.collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+ul:not(.browser-default) > li {
+    list-style-type: none;
 }
